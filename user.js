@@ -15,14 +15,13 @@ async function renderPosts(id) {
 }
 
 function postHTML(post) {
-  return;
-  ` <div class="post">
+  return ` <div class="post">
       <div class="post__title">
       ${post.title}
       </div>
       <p class="post__body">
       ${post.body}</p>
     </div>
-    `
+    `;
 }
 renderPosts(id);
